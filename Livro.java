@@ -7,6 +7,15 @@ public class Livro {
     private int nrPaginas;
     private int edicao;
 
+    // método construtor (construir objetos com valores default)
+    Livro(){
+        this.codigo = 0;
+        this.titulo = "";
+        this.autor = "";
+        this.editora = "";
+        this.nrPaginas = 0;
+        this.edicao = 0;
+    }
     // métodos
     public int getCodigo(){
         return this.codigo;

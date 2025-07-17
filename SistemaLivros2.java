@@ -92,5 +92,10 @@ public class SistemaLivros2 {
 
         System.out.println("  " );
         System.out.println("Livro Biblioteca: "+ mensagem2);
+
+        Livro novoLivro = new Livro();
+        System.out.println("Novo livro: "+novoLivro.getTitulo());
+        novoLivro.setTitulo("Novo titulo legal");
+        System.out.println("Novo livro: "+novoLivro.getTitulo());
     }
 }
